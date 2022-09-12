@@ -49,3 +49,16 @@ color: aqua;
 .row p{
     font-size: 1.2rem;
 }
+#instructors .card{
+    transition: transform 0.5s;
+}
+#instructors .card:hover{
+    transform: scale(1.05);
+}
+.socials{
+    transition: transform 0.5s;
+}
+.socials i:hover{
+    transform: scale(1.05);
+    opacity: 0.5;
+}

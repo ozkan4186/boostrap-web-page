@@ -1,0 +1,14 @@
+.navbar {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: black;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+color: aqua;
+}

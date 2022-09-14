@@ -75,3 +75,11 @@ color: aqua;
 .col img{
     width: 25%;
 }
+section#courses .nav-link.active{
+    background-color: red;
+}
+footer i{
+    font-size: 2rem;
+    color: blue;
+    
+}

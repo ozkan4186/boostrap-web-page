@@ -87,3 +87,22 @@ footer i{
 footer i:hover{
     color: chartreuse;
 }
+.btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: white;
+    background-color: crimson;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.btn-up:hover{
+    color: darkgreen;
+    
+}

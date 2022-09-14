@@ -81,5 +81,9 @@ section#courses .nav-link.active{
 footer i{
     font-size: 2rem;
     color: blue;
-    
+    margin-right: 0.8rem;
+    transition: color 1s;
+}
+footer i:hover{
+    color: chartreuse;
 }

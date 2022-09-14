@@ -104,5 +104,14 @@ footer i:hover{
 }
 .btn-up:hover{
     color: darkgreen;
-    
+
+}
+.btn-up i{
+    font-weight: 900;
+
+}
+.btn-up:hover i{
+      transform: scale(1.3);
+      font-size: 1.4rem;
+
 }

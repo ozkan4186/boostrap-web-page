@@ -1,117 +1,120 @@
+:root {
+  --red: #dc3545;
+}
+
+/*! -------------- 1- NAVBAR ---------------- */
 .navbar {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-
 .nav-link {
-    color: black;
-    transition: color 0.5s;
+  color: black;
+  transition: color 0.5s;
 }
-
 .nav-link:hover {
-color: aqua;
+  color: var(--red);
 }
 
+/*! ------------- 2- CAROUSEL --------------- */
 .carousel-item {
-    max-height: calc(100vh - 88px);
+  max-height: calc(100vh - 88px);
 }
 
 .carousel-item h5 {
-    color:chartreuse;
-    margin-bottom: 2rem;
-    font-size:  3rem;
-    text-shadow: 3px 3px 3px black;
+  color: var(--red);
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px black;
 }
 
 .carousel-item p {
-    text-shadow: 3px 3px 3px black;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
 }
 
 .carousel-item .btn {
-    width: 8rem;
-    margin-bottom: 0.5rem;
+  width: 7rem;
+  margin-bottom: 1rem;
 }
-
 .carousel-indicators button {
-    background-color:blue !important;
-    height: 0.4rem !important;
-    width: 3rem !important;
-    margin-right: 0.5rem !important;
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
 }
-
 .carousel-caption {
-    bottom: 4rem;
+  bottom: 5rem;
 }
-.row h4{
-    font-size: 2rem;
-}
-.row p{
-    font-size: 1.2rem;
-}
-#instructors .card{
-    transition: transform 0.5s;
-}
-#instructors .card:hover{
-    transform: scale(1.05);
-}
-.socials{
-    transition: transform 0.5s;
-}
-.socials i:hover{
-    transform: scale(1.05);
-    opacity: 0.5;
-}
-.bnn{
-    border: none;
-}
-.pic1{
-    width: 150%;
 
-}
-.col img{
-    width: 25%;
-}
-section#courses .nav-link.active{
-    background-color: red;
-}
-footer i{
-    font-size: 2rem;
-    color: blue;
-    margin-right: 0.8rem;
-    transition: color 1s;
-}
-footer i:hover{
-    color: chartreuse;
-}
-.btn-up{
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    color: white;
-    background-color: crimson;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4rem;
-    text-decoration: none;
-}
-.btn-up:hover{
-    color: darkgreen;
+/*! ------------ 3- ABOUT SECTION ----------- */
 
+/*! ------------- 4- INSTRUCTORS -------------*/
+section#instructors .card {
+  transition: transform 0.5s;
 }
-.btn-up i{
-    font-weight: 900;
 
+section#instructors .card:hover {
+  transform: scale(1.05);
 }
-.btn-up:hover i{
-      transform: scale(1.3);
-      font-size: 1.4rem;
 
+section#instructors .socials i {
+  transition: opacity 0.5s;
+}
+
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+
+/*! ----------- 4- STUDENTS SECTION ----------*/
+section#students img {
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/*! ----------- 5- COURSES SECTION ----------- */
+section#courses .nav-link.active {
+  background-color: var(--red);
+}
+section#courses .nav-link {
+  color: white;
+}
+
+/*! ----------- 6- CONTACT SECTION ------------ */
+
+/*! --------------- 7- FOOTER ----------------- */
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 0.8rem;
+  transition: color 1s;
+}
+
+footer i:hover {
+  color: var(--red);
+}
+
+/** -------------- UP-BUTTON ------------------ */
+.btn-up {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  background-color: var(--red);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.btn-up:hover {
+  color: black;
+}
+
+.btn-up:hover i {
+  transform: scale(1.2);
+  font-size: 1.4rem;
 }
